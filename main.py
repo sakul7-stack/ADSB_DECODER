@@ -22,7 +22,7 @@ def main():
     messages=read_sample_data(data_file)
 
     if not messages:
-        print('nodata to decode')
+        print('no data to decode')
         return
     
     for msg in messages:
